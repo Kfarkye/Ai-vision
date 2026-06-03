@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aura-bg: #000000;
+  --color-aura-card: #0A0A0A;
+  --color-aura-muted: #111111;
+  --color-aura-border: #222222;
+  --color-aura-text: #F5F5F7;
+  --color-aura-text-muted: #86868B;
+  --color-aura-accent: #FFFFFF;
+  --color-aura-accent-hover: #E5E5EA;
+  --color-aura-red: #FF3B30;
+}
+
+body {
+  background-color: var(--color-aura-bg);
+  color: var(--color-aura-text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+}

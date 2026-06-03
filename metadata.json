@@ -1,0 +1,8 @@
+{
+  "name": "AI Vision",
+  "description": "AI-Powered Text Extraction. Drop messy screenshots, get perfectly formatted text instantly using Gemini 2.5 Flash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
